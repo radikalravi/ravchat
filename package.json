@@ -4,7 +4,8 @@
   "description": "chat application using firebase",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/radikalravi/ravchat/issues"
   },
-  "homepage": "https://github.com/radikalravi/ravchat#readme"
+  "homepage": "https://github.com/radikalravi/ravchat#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
 }
